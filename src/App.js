@@ -8,6 +8,7 @@ import { HomeScreen } from './components/Home';
 // import { ProductsScreen } from './components/Products';
 // import { StoreScreen } from './components/Store';
 // import { ContactScreen } from './components/Contact';
+import { FooterScreen } from './components/Footer';
 import history from './history';
 import 'jquery/dist/jquery';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -31,6 +32,7 @@ function App() {
             <Route path="/store" exact component={StoreScreen} />
             <Route path="/contact" exact component={ContactScreen} /> */}
           </Switch>
+          <FooterScreen />
         </Router>
       </div>
     </ApolloProvider>

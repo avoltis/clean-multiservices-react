@@ -13,7 +13,6 @@ class Home extends Component {
       return null;
     }
 
-    debugger;
     return (
       <Fragment>
         <section className="page-section clearfix">
