@@ -53,45 +53,45 @@ class Header extends Component {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item active px-lg-4">
-                  <a
+                  <Link
                     className="nav-link text-uppercase text-expanded"
-                    href="index.html"
+                    to="/"
                   >
                     Multi Services
                     <span className="sr-only">(current)</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item px-lg-4">
-                  <a
+                  <Link
                     className="nav-link text-uppercase text-expanded"
-                    href="about.html"
+                    to="/about"
                   >
                     Chi Siamo
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item px-lg-4">
-                  <a
+                  <Link
                     className="nav-link text-uppercase text-expanded"
-                    href="products.html"
+                    to="/products"
                   >
                     Prodotti
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item px-lg-4">
-                  <a
+                  <Link
                     className="nav-link text-uppercase text-expanded"
-                    href="store.html"
+                    to="/store"
                   >
                     Aperti
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item px-lg-4">
-                  <a
+                  <Link
                     className="nav-link text-uppercase text-expanded"
-                    href="contact.html"
+                    to="/contact"
                   >
                     Contattaci
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
